@@ -30,6 +30,7 @@ app = FastAPI(
     description="Agricultural Risk Intelligence Platform API",
     docs_url="/docs",
     redoc_url="/redoc",
+    redirect_slashes=False,
 )
 
 # High-Performance GZip Compression (compresses responses > 500 bytes by up to 80%)
