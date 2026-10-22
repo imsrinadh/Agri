@@ -3,8 +3,18 @@
 //  Connects React frontend directly to FastAPI backend.
 // ============================================================
 
-export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || '/api';
+export const API_BASE_URL = (() => {
+  const envUrl = import.meta.env.VITE_API_BASE_URL;
+  if (!envUrl) return '/api';
+  let cleanUrl = envUrl.trim();
+  if (!cleanUrl.startsWith('http://') && !cleanUrl.startsWith('https://') && !cleanUrl.startsWith('/')) {
+    cleanUrl = `https://${cleanUrl}`;
+  }
+  if (!cleanUrl.endsWith('/api') && !cleanUrl.includes('/api/')) {
+    cleanUrl = cleanUrl.replace(/\/+$/, '') + '/api';
+  }
+  return cleanUrl;
+})();
 
 const AUTH_STORAGE_KEY = 'agririsk_auth';
 

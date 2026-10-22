@@ -21,6 +21,8 @@ class Settings(BaseSettings):
     DATABASE_URL: str = ""
     GEMINI_API_KEY: str = ""
 
+    ALLOWED_ORIGINS: str = ""
+
     # Specific origins allowed for CORS
     @property
     def cors_origins(self) -> List[str]:
@@ -34,6 +36,11 @@ class Settings(BaseSettings):
         ]
         if self.FRONTEND_URL and self.FRONTEND_URL not in origins:
             origins.append(self.FRONTEND_URL)
+        if self.ALLOWED_ORIGINS:
+            for o in self.ALLOWED_ORIGINS.split(","):
+                o = o.strip()
+                if o and o not in origins:
+                    origins.append(o)
         return origins
 
     model_config = SettingsConfigDict(

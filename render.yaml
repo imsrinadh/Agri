@@ -1,0 +1,41 @@
+services:
+  # -------------------------------------------------------------
+  # AgriRisk Backend API (FastAPI + ML Engine)
+  # -------------------------------------------------------------
+  - type: web
+    name: agririsk-backend
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install --upgrade pip && pip install -r backend/requirements.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT --app-dir backend"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DEBUG
+        value: "false"
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+
+  # -------------------------------------------------------------
+  # AgriRisk Frontend Client (Vite + React SPA)
+  # -------------------------------------------------------------
+  - type: web
+    name: agririsk-frontend
+    runtime: static
+    plan: free
+    region: oregon
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "./dist"
+    routes:
+      - type: rewrite
+        source: "/*"
+        destination: "/index.html"
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: agririsk-backend
+          property: host
