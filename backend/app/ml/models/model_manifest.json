@@ -1,0 +1,77 @@
+{
+  "model_version": "AGRIRISK_ML_v1.0",
+  "model": "Ridge",
+  "alpha": 10.0,
+  "yield_model_status": "VALIDATED_WITH_PROVISIONAL_DATA",
+  "uncertainty_status": "LIMITED",
+  "training_data": "2012-2023 FINAL",
+  "additional_evaluation": {
+    "2024": "PROVISIONAL",
+    "2025": "PROVISIONAL_ADVANCE"
+  },
+  "latest_final_evaluation_year": 2023,
+  "latest_available_outcome_year": 2025,
+  "risk_engine_status": "VALIDATED",
+  "evaluation_metrics": {
+    "2022_climate_shock": {
+      "status": "FINAL",
+      "sample_count": 28,
+      "mae_tonnes_ha": 0.1932,
+      "rmse_tonnes_ha": 0.2983,
+      "r2": 0.9874,
+      "observed_conformal_coverage_pct": 85.7
+    },
+    "2023_out_of_time_final": {
+      "status": "FINAL",
+      "sample_count": 28,
+      "mae_tonnes_ha": 0.3739,
+      "rmse_tonnes_ha": 0.4191,
+      "r2": 0.9797,
+      "observed_conformal_coverage_pct": 25.0
+    },
+    "2024_provisional": {
+      "status": "PROVISIONAL",
+      "sample_count": 28,
+      "mae_tonnes_ha": 0.1758,
+      "rmse_tonnes_ha": 0.1954,
+      "r2": 0.9956,
+      "observed_conformal_coverage_pct": 89.3
+    },
+    "2025_advance": {
+      "status": "PROVISIONAL_ADVANCE",
+      "sample_count": 28,
+      "mae_tonnes_ha": 0.1150,
+      "rmse_tonnes_ha": 0.1335,
+      "r2": 0.9980,
+      "observed_conformal_coverage_pct": 92.9
+    }
+  },
+  "risk_engine": {
+    "weights": {
+      "weather_pct": 35.0,
+      "soil_pct": 20.0,
+      "pest_pct": 15.0,
+      "yield_stability_pct": 20.0,
+      "market_pct": 10.0
+    },
+    "risk_tiers": {
+      "LOW": "0–24",
+      "MODERATE": "25–49",
+      "HIGH": "50–74",
+      "CRITICAL": "75–100"
+    }
+  },
+  "data_provenance": {
+    "weather": "VERIFIED_2025_DATA (NASA POWER Daily Grid)",
+    "market": "VERIFIED_2025_DATA (Agmarknet Mandi Prices)",
+    "pest": "VERIFIED_2025_DATA (ICAR-NCIPM Surveillance)",
+    "soil": "VERIFIED_2025_DATA (Soil Health Card Baseline)",
+    "harvest_census": "2012–2023 FINAL • 2024 PROVISIONAL • 2025 ADVANCE (392 records)"
+  },
+  "safety_guardrails": {
+    "leakage_status": "PASS",
+    "missing_data_refusal": "PASS",
+    "farmer_safety_claims": "PASS",
+    "profit_safety": "PASS"
+  }
+}

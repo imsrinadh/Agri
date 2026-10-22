@@ -1,0 +1,27 @@
+state,district,crop,market_center,arrival_date,year,month,modal_price_rs_per_quintal,min_price_rs_per_quintal,max_price_rs_per_quintal,price_spread_rs_per_quintal,price_volatility_pct,arrivals_tonnes,original_state,original_district,original_commodity
+Andhra Pradesh,Guntur,Cotton,Guntur APMC,2020-11-10,2020,11,5550,5200,5900,700,12.61,6200,ANDHRA PRADESH,GUNTUR,Cotton
+Andhra Pradesh,Kurnool,Groundnut,Kurnool Mandi,2020-11-05,2020,11,5100,4700,5450,750,14.71,3800,ANDHRA PRADESH,KURNOOL,Groundnut
+Andhra Pradesh,Nellore,Rice,Nellore Mandi,2020-11-15,2020,11,2020,1868,2200,332,16.44,9500,ANDHRA PRADESH,NELLORE,Rice
+Bihar,Patna,Rice,Patna Mandi,2020-12-10,2020,12,1900,1800,2050,250,13.16,5400,BIHAR,PATNA,Rice
+Bihar,Patna,Wheat,Patna Mandi,2020-05-02,2020,5,1880,1780,1980,200,10.64,3500,BIHAR,PATNA,Wheat
+Gujarat,Rajkot,Cotton,Rajkot Mandi,2020-11-15,2020,11,5700,5300,6050,750,13.16,7500,GUJARAT,RAJKOT,Cotton
+Gujarat,Rajkot,Groundnut,Rajkot Mandi,2020-10-25,2020,10,5250,4800,5600,800,15.24,5400,GUJARAT,RAJKOT,Groundnut
+Gujarat,Surat,Rice,Surat Mandi,2020-11-10,2020,11,2050,1868,2250,382,18.63,2800,GUJARAT,SURAT,Rice
+Haryana,Karnal,Wheat,Karnal Mandi,2020-04-20,2020,4,1980,1925,2120,195,9.85,9800,HARYANA,KARNAL,Wheat
+Karnataka,Davangere,Maize,Davangere Mandi,2020-11-08,2020,11,1820,1650,1950,300,16.48,6800,KARNATAKA,DAVANGERE,Maize
+Karnataka,Shivamogga,Rice,Shivamogga Mandi,2020-11-18,2020,11,1970,1868,2150,282,14.31,4500,KARNATAKA,SHIVAMOGGA,Rice
+Madhya Pradesh,Indore,Soybean,Indore Mandi,2020-10-18,2020,10,3880,3600,4150,550,14.18,8900,MADHYA PRADESH,INDORE,Soybean
+Madhya Pradesh,Ujjain,Wheat,Ujjain Mandi,2020-04-10,2020,4,2050,1900,2250,350,17.07,8400,MADHYA PRADESH,UJJAIN,Wheat
+Maharashtra,Ahmednagar,Soybean,Ahmednagar Mandi,2020-10-20,2020,10,3820,3550,4100,550,14.4,4200,MAHARASHTRA,AHMEDNAGAR,Soybean
+Maharashtra,Nagpur,Cotton,Nagpur Mandi,2020-11-12,2020,11,5450,5100,5750,650,11.93,4800,MAHARASHTRA,NAGPUR,Cotton
+Maharashtra,Nashik,Onion,Lasalgaon / Nashik,2020-02-15,2020,2,2450,1800,3200,1400,57.14,14500,MAHARASHTRA,NASHIK,Onion
+Maharashtra,Nashik,Wheat,Nashik Mandi,2020-04-12,2020,4,2100,1950,2300,350,16.67,3100,MAHARASHTRA,NASHIK,Wheat
+Punjab,Ludhiana,Rice,Ludhiana Mandi,2020-10-20,2020,10,1950,1868,2150,282,14.46,18500,PUNJAB,LUDHIANA,Rice
+Punjab,Ludhiana,Wheat,Ludhiana Mandi,2020-04-15,2020,4,1975,1925,2100,175,8.86,12500,PUNJAB,LUDHIANA,Wheat
+Punjab,Patiala,Wheat,Patiala Mandi,2020-04-18,2020,4,1960,1925,2080,155,7.91,11200,PUNJAB,PATIALA,Wheat
+Rajasthan,Jaipur,Mustard,Jaipur Mandi,2020-03-25,2020,3,4550,4200,4850,650,14.29,4600,RAJASTHAN,JAIPUR,Mustard
+Rajasthan,Kota,Soybean,Kota Mandi,2020-10-22,2020,10,3800,3500,4050,550,14.47,5100,RAJASTHAN,KOTA,Soybean
+Tamil Nadu,Thanjavur,Rice,Thanjavur Mandi,2020-11-25,2020,11,1990,1868,2180,312,15.68,8200,TAMIL NADU,THANJAVUR,Rice
+Uttar Pradesh,Meerut,Wheat,Meerut Mandi,2020-04-22,2020,4,1940,1850,2050,200,10.31,6500,UTTAR PRADESH,MEERUT,Wheat
+Uttar Pradesh,Varanasi,Wheat,Varanasi Mandi,2020-04-25,2020,4,1920,1820,2020,200,10.42,4200,UTTAR PRADESH,VARANASI,Wheat
+West Bengal,Burdwan,Rice,Burdwan Mandi,2020-12-05,2020,12,1940,1868,2100,232,11.96,12000,WEST BENGAL,BURDWAN,Rice

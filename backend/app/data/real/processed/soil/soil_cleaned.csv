@@ -1,0 +1,23 @@
+state,district,soil_ph,soil_reaction_class,organic_carbon_pct,available_nitrogen_kg_ha,available_phosphorus_kg_ha,available_potassium_kg_ha,electrical_conductivity_ds_m,npk_nitrogen_ratio,soil_fertility_index,original_state,original_district
+Andhra Pradesh,Guntur,7.8,Moderately Alkaline,0.45,180.0,14.5,260.0,0.55,0.396,75.27,ANDHRA PRADESH,GUNTUR
+Andhra Pradesh,Kurnool,8.1,Moderately Alkaline,0.38,165.0,12.0,280.0,0.62,0.3611,68.59,ANDHRA PRADESH,KURNOOL
+Andhra Pradesh,Nellore,6.8,Neutral / Optimal,0.58,210.0,18.0,220.0,0.42,0.4687,84.4,ANDHRA PRADESH,NELLORE
+Bihar,Patna,7.1,Neutral / Optimal,0.58,225.0,20.0,185.0,0.3,0.5233,85.5,BIHAR,PATNA
+Gujarat,Rajkot,7.9,Moderately Alkaline,0.4,160.0,15.2,290.0,0.58,0.3439,72.73,GUJARAT,RAJKOT
+Gujarat,Surat,7.3,Neutral / Optimal,0.65,245.0,21.0,215.0,0.32,0.5094,93.76,GUJARAT,SURAT
+Haryana,Karnal,7.6,Moderately Alkaline,0.54,230.0,21.5,190.0,0.36,0.521,87.87,HARYANA,KARNAL
+Karnataka,Davangere,7.1,Neutral / Optimal,0.5,200.0,18.5,230.0,0.36,0.4459,83.23,KARNATAKA,DAVANGERE
+Karnataka,Shivamogga,5.8,Moderately Acidic,0.85,260.0,28.0,160.0,0.2,0.5804,101.5,KARNATAKA,SHIVAMOGGA
+Madhya Pradesh,Indore,7.6,Moderately Alkaline,0.52,190.0,17.5,250.0,0.44,0.4153,82.01,MADHYA PRADESH,INDORE
+Madhya Pradesh,Ujjain,7.7,Moderately Alkaline,0.5,185.0,16.8,240.0,0.42,0.4187,80.03,MADHYA PRADESH,UJJAIN
+Maharashtra,Ahmednagar,7.9,Moderately Alkaline,0.42,175.0,15.0,235.0,0.48,0.4118,74.23,MAHARASHTRA,AHMEDNAGAR
+Maharashtra,Nagpur,7.5,Neutral / Optimal,0.54,195.0,16.5,245.0,0.4,0.4272,81.68,MAHARASHTRA,NAGPUR
+Maharashtra,Nashik,7.2,Neutral / Optimal,0.62,230.0,24.0,210.0,0.3,0.4957,94.88,MAHARASHTRA,NASHIK
+Punjab,Ludhiana,7.4,Neutral / Optimal,0.52,240.0,22.5,185.0,0.35,0.5363,89.58,PUNJAB,LUDHIANA
+Punjab,Patiala,7.6,Moderately Alkaline,0.48,220.0,19.8,175.0,0.38,0.5304,81.6,PUNJAB,PATIALA
+Rajasthan,Jaipur,8.0,Moderately Alkaline,0.32,150.0,13.0,210.0,0.65,0.4021,63.88,RAJASTHAN,JAIPUR
+Rajasthan,Kota,7.6,Moderately Alkaline,0.46,180.0,16.0,230.0,0.4,0.4225,76.52,RAJASTHAN,KOTA
+Tamil Nadu,Thanjavur,6.5,Neutral / Optimal,0.72,250.0,25.0,190.0,0.28,0.5376,98.74,TAMIL NADU,THANJAVUR
+Uttar Pradesh,Meerut,7.5,Neutral / Optimal,0.55,235.0,22.0,195.0,0.36,0.5199,89.88,UTTAR PRADESH,MEERUT
+Uttar Pradesh,Varanasi,7.3,Neutral / Optimal,0.49,205.0,19.0,180.0,0.34,0.5074,79.33,UTTAR PRADESH,VARANASI
+West Bengal,Burdwan,6.2,Moderately Acidic,0.78,270.0,26.5,175.0,0.22,0.5726,102.85,WEST BENGAL,BURDWAN

@@ -1,0 +1,28 @@
+STATE,DISTRICT,CROP,PEST_NAME,SEVERITY,ETL_EXCEEDED,YEAR,SEASON
+PUNJAB,LUDHIANA,Wheat,Yellow Rust,Moderate,0,2020,Rabi
+PUNJAB,LUDHIANA,Rice,Stem Borer,High,1,2020,Kharif
+PUNJAB,PATIALA,Wheat,Aphids,Low,0,2020,Rabi
+HARYANA,KARNAL,Wheat,Brown Rust,Low,0,2020,Rabi
+HARYANA,KARNAL,Rice,Leaf Folder,Moderate,0,2020,Kharif
+ANDHRA PRADESH,GUNTUR,Cotton,Pink Bollworm,Severe,1,2020,Kharif
+ANDHRA PRADESH,NELLORE,Rice,Brown Planthopper,Moderate,1,2020,Kharif
+ANDHRA PRADESH,KURNOOL,Groundnut,Spodoptera litura,Moderate,0,2020,Kharif
+MAHARASHTRA,NAGPUR,Cotton,Whitefly,High,1,2020,Kharif
+MAHARASHTRA,NASHIK,Onion,Thrips,High,1,2020,Whole Year
+MAHARASHTRA,NASHIK,Wheat,Rust,Low,0,2020,Rabi
+MAHARASHTRA,AHMEDNAGAR,Soybean,Girdle Beetle,Moderate,0,2020,Kharif
+GUJARAT,RAJKOT,Groundnut,White Grub,High,1,2020,Kharif
+GUJARAT,RAJKOT,Cotton,Jassids,Moderate,0,2020,Kharif
+GUJARAT,SURAT,Rice,Gall Midge,Low,0,2020,Kharif
+KARNATAKA,SHIVAMOGGA,Rice,Blast,Moderate,0,2020,Kharif
+KARNATAKA,DAVANGERE,Maize,Fall Armyworm,Severe,1,2020,Kharif
+TAMIL NADU,THANJAVUR,Rice,Bacterial Leaf Blight,Moderate,0,2020,Kharif
+UTTAR PRADESH,VARANASI,Wheat,Termites,Low,0,2020,Rabi
+UTTAR PRADESH,MEERUT,Wheat,Powdery Mildew,Low,0,2020,Rabi
+MADHYA PRADESH,INDORE,Soybean,Semilooper,High,1,2020,Kharif
+MADHYA PRADESH,UJJAIN,Wheat,Foliar Blight,Low,0,2020,Rabi
+RAJASTHAN,JAIPUR,Mustard,Mustard Aphid,High,1,2020,Rabi
+RAJASTHAN,KOTA,Soybean,Stem Fly,Moderate,0,2020,Kharif
+WEST BENGAL,BURDWAN,Rice,Sheath Blight,High,1,2020,Kharif
+BIHAR,PATNA,Rice,Stem Borer,Moderate,0,2020,Kharif
+BIHAR,PATNA,Wheat,Aphids,Low,0,2020,Rabi

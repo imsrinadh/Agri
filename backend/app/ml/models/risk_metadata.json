@@ -1,0 +1,40 @@
+{
+  "model_name": "AgriRisk Advanced Dual Agricultural Risk Engine",
+  "algorithm": "Calibrated Soft-Voting Classifier (HistGB + RF + ExtraTrees) & Voting Regressor (GBR + RFR + Ridge)",
+  "version": "3.0.0",
+  "model_status": "VALIDATED_PRODUCTION",
+  "model_status_reason": "Successfully validated via 5-Fold Stratified Cross-Validation on 308 multi-year district panel observations. Cross-Validation Accuracy: 80.51%, Weighted F1: 0.7827. Yield prediction MAE: 0.06 t/ha.",
+  "training_date": "2026-09-11T04:36:32.750534+00:00",
+  "total_samples": 308,
+  "numerical_features_count": 33,
+  "categorical_features_count": 3,
+  "classes": [
+    "LOW",
+    "MODERATE",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "validation_metrics": {
+    "cv_accuracy": 0.8051,
+    "cv_balanced_accuracy": 0.5356,
+    "cv_weighted_f1": 0.7827,
+    "holdout_accuracy": 0.7872,
+    "holdout_f1": 0.7801,
+    "yield_mae_tonnes_ha": 0.0635,
+    "yield_r2": 0.9988,
+    "yai_mae": 0.1817
+  },
+  "supported_crops": [
+    "Cotton",
+    "Groundnut",
+    "Maize",
+    "Mustard",
+    "Onion",
+    "Rice",
+    "Soybean",
+    "Wheat"
+  ],
+  "supported_states_count": 12,
+  "confidence_calibration": "Soft-voting posterior probabilities with agronomic penalty regularization (0-100 score).",
+  "deployment_status": "PRODUCTION"
+}

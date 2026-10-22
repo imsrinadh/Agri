@@ -1,0 +1,83 @@
+{
+  "audit_date": "2026-08-26",
+  "data_freshness_status": "HARVEST_DATA_PARTIALLY_VERIFIED",
+  "data_freshness_summary": {
+    "weather_data_year": 2025,
+    "market_data_year": 2025,
+    "pest_data_year": 2025,
+    "soil_data_year": 2025,
+    "latest_harvest_outcome_year": 2025,
+    "latest_final_harvest_outcome_year": 2023,
+    "harvest_data_status": "PROVISIONAL_ADVANCE",
+    "harvest_status_by_year": {
+      "2022": "FINAL",
+      "2023": "FINAL",
+      "2024": "PROVISIONAL",
+      "2025": "PROVISIONAL_ADVANCE"
+    }
+  },
+  "data_freshness_registry": [
+    {
+      "dataset_name": "DES_APY_Crop_Production_Statistics",
+      "source_organization": "Directorate of Economics & Statistics (DES) & State Agricultural Directorates",
+      "official_url": "https://aps.dac.gov.in",
+      "data_type": "HARVEST_OUTCOME",
+      "latest_verified_year": 2025,
+      "latest_final_verified_year": 2023,
+      "latest_verified_date": "2025-12-31",
+      "records_count": 392,
+      "geographic_coverage": "22 Districts across 12 States (14 continuous harvest years: 2012–2025)",
+      "data_status": "PARTIALLY_VERIFIED",
+      "status_notes": {
+        "2012_2022": "FINAL (National Agricultural Census published)",
+        "2023": "FINAL (State Directorate Agricultural Statistics final compilations)",
+        "2024": "PROVISIONAL (State 4th Advance Estimates compilations)",
+        "2025": "PROVISIONAL_ADVANCE (Preliminary advance harvest estimates)"
+      }
+    },
+    {
+      "dataset_name": "NASA_POWER_Agro_Climatology",
+      "source_organization": "NASA Langley Research Center",
+      "official_url": "https://power.larc.nasa.gov",
+      "data_type": "CURRENT_WEATHER",
+      "latest_verified_year": 2025,
+      "latest_verified_date": "2025-12-31",
+      "records_count": 14784,
+      "geographic_coverage": "22 District Centroid Grids across 12 States",
+      "data_status": "VERIFIED_THROUGH_2025"
+    },
+    {
+      "dataset_name": "Agmarknet_APMC_Mandi_Wholesale_Prices",
+      "source_organization": "Directorate of Marketing & Inspection (DMI), MoA&FW, Govt of India",
+      "official_url": "https://agmarknet.gov.in",
+      "data_type": "CURRENT_MARKET",
+      "latest_verified_year": 2025,
+      "latest_verified_date": "2025-12-31",
+      "records_count": 38,
+      "geographic_coverage": "26 Major APMC Mandis across 12 States",
+      "data_status": "VERIFIED_THROUGH_2025"
+    },
+    {
+      "dataset_name": "ICAR_NCIPM_Dynamic_Pest_Surveillance",
+      "source_organization": "ICAR - National Research Centre for Integrated Pest Management",
+      "official_url": "https://ncipm.icar.gov.in",
+      "data_type": "CURRENT_PEST",
+      "latest_verified_year": 2025,
+      "latest_verified_date": "2025-12-31",
+      "records_count": 36,
+      "geographic_coverage": "22 Major Cropping Belts",
+      "data_status": "VERIFIED_THROUGH_2025"
+    },
+    {
+      "dataset_name": "National_Soil_Health_Card_Portal",
+      "source_organization": "Department of Agriculture & Farmers Welfare (DA&FW), Govt of India",
+      "official_url": "https://soilhealth.dac.gov.in",
+      "data_type": "CURRENT_SOIL",
+      "latest_verified_year": 2025,
+      "latest_verified_date": "2025-06-30",
+      "records_count": 22,
+      "geographic_coverage": "22 District Soil Test Profiles",
+      "data_status": "VERIFIED_THROUGH_2025"
+    }
+  ]
+}

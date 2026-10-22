@@ -1,0 +1,85 @@
+state,district,crop,season,crop_year,area_hectares,production_tonnes,yield_tonnes_per_hectare,data_status
+Andhra Pradesh,Guntur,Cotton,Kharif,2023,192000,96960,0.505,FINAL
+Andhra Pradesh,Guntur,Cotton,Kharif,2024,194000,98940,0.51,PROVISIONAL
+Andhra Pradesh,Guntur,Cotton,Kharif,2025,195000,100425,0.515,PROVISIONAL_ADVANCE
+Andhra Pradesh,Kurnool,Groundnut,Kharif,2023,122000,178120,1.46,FINAL
+Andhra Pradesh,Kurnool,Groundnut,Kharif,2024,123000,180810,1.47,PROVISIONAL
+Andhra Pradesh,Kurnool,Groundnut,Kharif,2025,124000,183520,1.48,PROVISIONAL_ADVANCE
+Andhra Pradesh,Nellore,Rice,Kharif,2023,264000,1137840,4.31,FINAL
+Andhra Pradesh,Nellore,Rice,Kharif,2024,265000,1147450,4.33,PROVISIONAL
+Andhra Pradesh,Nellore,Rice,Kharif,2025,266000,1157100,4.35,PROVISIONAL_ADVANCE
+Bihar,Patna,Rice,Kharif,2023,138000,358800,2.6,FINAL
+Bihar,Patna,Rice,Kharif,2024,139000,362790,2.61,PROVISIONAL
+Bihar,Patna,Rice,Kharif,2025,140000,366800,2.62,PROVISIONAL_ADVANCE
+Bihar,Patna,Wheat,Rabi,2023,128000,384000,3.0,FINAL
+Bihar,Patna,Wheat,Rabi,2024,129000,388290,3.01,PROVISIONAL
+Bihar,Patna,Wheat,Rabi,2025,130000,392600,3.02,PROVISIONAL_ADVANCE
+Gujarat,Rajkot,Cotton,Kharif,2023,224000,161280,0.72,FINAL
+Gujarat,Rajkot,Cotton,Kharif,2024,225000,163125,0.725,PROVISIONAL
+Gujarat,Rajkot,Cotton,Kharif,2025,226000,164980,0.73,PROVISIONAL_ADVANCE
+Gujarat,Rajkot,Groundnut,Kharif,2023,285000,541500,1.9,FINAL
+Gujarat,Rajkot,Groundnut,Kharif,2024,287000,548170,1.91,PROVISIONAL
+Gujarat,Rajkot,Groundnut,Kharif,2025,288000,552960,1.92,PROVISIONAL_ADVANCE
+Gujarat,Surat,Rice,Kharif,2023,88000,242000,2.75,FINAL
+Gujarat,Surat,Rice,Kharif,2024,89000,245640,2.76,PROVISIONAL
+Gujarat,Surat,Rice,Kharif,2025,90000,249300,2.77,PROVISIONAL_ADVANCE
+Haryana,Karnal,Rice,Kharif,2023,168000,724080,4.31,FINAL
+Haryana,Karnal,Rice,Kharif,2024,169000,730080,4.32,PROVISIONAL
+Haryana,Karnal,Rice,Kharif,2025,170000,736100,4.33,PROVISIONAL_ADVANCE
+Haryana,Karnal,Wheat,Rabi,2023,174000,866520,4.98,FINAL
+Haryana,Karnal,Wheat,Rabi,2024,175000,873250,4.99,PROVISIONAL
+Haryana,Karnal,Wheat,Rabi,2025,176000,880000,5.0,PROVISIONAL_ADVANCE
+Karnataka,Davangere,Maize,Kharif,2023,178000,649700,3.65,FINAL
+Karnataka,Davangere,Maize,Kharif,2024,179000,655140,3.66,PROVISIONAL
+Karnataka,Davangere,Maize,Kharif,2025,180000,660600,3.67,PROVISIONAL_ADVANCE
+Karnataka,Shivamogga,Rice,Kharif,2023,152000,519840,3.42,FINAL
+Karnataka,Shivamogga,Rice,Kharif,2024,153000,524790,3.43,PROVISIONAL
+Karnataka,Shivamogga,Rice,Kharif,2025,154000,529760,3.44,PROVISIONAL_ADVANCE
+Madhya Pradesh,Indore,Soybean,Kharif,2023,218000,268140,1.23,FINAL
+Madhya Pradesh,Indore,Soybean,Kharif,2024,219000,271560,1.24,PROVISIONAL
+Madhya Pradesh,Indore,Soybean,Kharif,2025,220000,275000,1.25,PROVISIONAL_ADVANCE
+Madhya Pradesh,Ujjain,Wheat,Rabi,2023,242000,866360,3.58,FINAL
+Madhya Pradesh,Ujjain,Wheat,Rabi,2024,243000,872370,3.59,PROVISIONAL
+Madhya Pradesh,Ujjain,Wheat,Rabi,2025,244000,878400,3.6,PROVISIONAL_ADVANCE
+Maharashtra,Ahmednagar,Soybean,Kharif,2023,158000,206980,1.31,FINAL
+Maharashtra,Ahmednagar,Soybean,Kharif,2024,159000,209880,1.32,PROVISIONAL
+Maharashtra,Ahmednagar,Soybean,Kharif,2025,160000,212800,1.33,PROVISIONAL_ADVANCE
+Maharashtra,Nagpur,Cotton,Kharif,2023,142000,46860,0.33,FINAL
+Maharashtra,Nagpur,Cotton,Kharif,2024,143000,47905,0.335,PROVISIONAL
+Maharashtra,Nagpur,Cotton,Kharif,2025,144000,48960,0.34,PROVISIONAL_ADVANCE
+Maharashtra,Nashik,Onion,Whole year,2023,178000,2987040,16.78,FINAL
+Maharashtra,Nashik,Onion,Whole year,2024,180000,3024000,16.8,PROVISIONAL
+Maharashtra,Nashik,Onion,Whole year,2025,182000,3066700,16.85,PROVISIONAL_ADVANCE
+Maharashtra,Nashik,Wheat,Rabi,2023,98000,231280,2.36,FINAL
+Maharashtra,Nashik,Wheat,Rabi,2024,99000,234630,2.37,PROVISIONAL
+Maharashtra,Nashik,Wheat,Rabi,2025,100000,238000,2.38,PROVISIONAL_ADVANCE
+Punjab,Ludhiana,Rice,Kharif,2023,258000,1150680,4.46,FINAL
+Punjab,Ludhiana,Rice,Kharif,2024,259000,1160320,4.48,PROVISIONAL
+Punjab,Ludhiana,Rice,Kharif,2025,260000,1170000,4.5,PROVISIONAL_ADVANCE
+Punjab,Ludhiana,Wheat,Rabi,2023,254000,1285240,5.06,FINAL
+Punjab,Ludhiana,Wheat,Rabi,2024,255000,1297950,5.09,PROVISIONAL
+Punjab,Ludhiana,Wheat,Rabi,2025,256000,1308160,5.11,PROVISIONAL_ADVANCE
+Punjab,Patiala,Rice,Kharif,2023,236000,1052560,4.46,FINAL
+Punjab,Patiala,Rice,Kharif,2024,237000,1061760,4.48,PROVISIONAL
+Punjab,Patiala,Rice,Kharif,2025,238000,1071000,4.5,PROVISIONAL_ADVANCE
+Punjab,Patiala,Wheat,Rabi,2023,234000,1184040,5.06,FINAL
+Punjab,Patiala,Wheat,Rabi,2024,235000,1193800,5.08,PROVISIONAL
+Punjab,Patiala,Wheat,Rabi,2025,236000,1203600,5.1,PROVISIONAL_ADVANCE
+Rajasthan,Jaipur,Mustard,Rabi,2023,164000,255840,1.56,FINAL
+Rajasthan,Jaipur,Mustard,Rabi,2024,165000,259050,1.57,PROVISIONAL
+Rajasthan,Jaipur,Mustard,Rabi,2025,166000,262280,1.58,PROVISIONAL_ADVANCE
+Rajasthan,Kota,Soybean,Kharif,2023,148000,195360,1.32,FINAL
+Rajasthan,Kota,Soybean,Kharif,2024,149000,198170,1.33,PROVISIONAL
+Rajasthan,Kota,Soybean,Kharif,2025,150000,201000,1.34,PROVISIONAL_ADVANCE
+Tamil Nadu,Thanjavur,Rice,Kharif,2023,182000,764400,4.2,FINAL
+Tamil Nadu,Thanjavur,Rice,Kharif,2024,183000,770430,4.21,PROVISIONAL
+Tamil Nadu,Thanjavur,Rice,Kharif,2025,184000,776480,4.22,PROVISIONAL_ADVANCE
+Uttar Pradesh,Meerut,Wheat,Rabi,2023,142000,597820,4.21,FINAL
+Uttar Pradesh,Meerut,Wheat,Rabi,2024,143000,603460,4.22,PROVISIONAL
+Uttar Pradesh,Meerut,Wheat,Rabi,2025,144000,609120,4.23,PROVISIONAL_ADVANCE
+Uttar Pradesh,Varanasi,Wheat,Rabi,2023,118000,397660,3.37,FINAL
+Uttar Pradesh,Varanasi,Wheat,Rabi,2024,119000,402220,3.38,PROVISIONAL
+Uttar Pradesh,Varanasi,Wheat,Rabi,2025,120000,406800,3.39,PROVISIONAL_ADVANCE
+West Bengal,Burdwan,Rice,Kharif,2023,328000,1187360,3.62,FINAL
+West Bengal,Burdwan,Rice,Kharif,2024,329000,1194270,3.63,PROVISIONAL
+West Bengal,Burdwan,Rice,Kharif,2025,330000,1201200,3.64,PROVISIONAL_ADVANCE

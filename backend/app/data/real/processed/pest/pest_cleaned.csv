@@ -1,0 +1,28 @@
+state,district,crop,pest_name,pest_severity,pest_severity_score,economic_threshold_exceeded,year,season,original_state,original_district,original_crop
+Andhra Pradesh,Guntur,Cotton,Pink Bollworm,Severe,4.0,1,2020,Kharif,ANDHRA PRADESH,GUNTUR,Cotton
+Andhra Pradesh,Kurnool,Groundnut,Spodoptera litura,Moderate,2.0,0,2020,Kharif,ANDHRA PRADESH,KURNOOL,Groundnut
+Andhra Pradesh,Nellore,Rice,Brown Planthopper,Moderate,2.0,1,2020,Kharif,ANDHRA PRADESH,NELLORE,Rice
+Bihar,Patna,Rice,Stem Borer,Moderate,2.0,0,2020,Kharif,BIHAR,PATNA,Rice
+Bihar,Patna,Wheat,Aphids,Low,1.0,0,2020,Rabi,BIHAR,PATNA,Wheat
+Gujarat,Rajkot,Cotton,Jassids,Moderate,2.0,0,2020,Kharif,GUJARAT,RAJKOT,Cotton
+Gujarat,Rajkot,Groundnut,White Grub,High,3.0,1,2020,Kharif,GUJARAT,RAJKOT,Groundnut
+Gujarat,Surat,Rice,Gall Midge,Low,1.0,0,2020,Kharif,GUJARAT,SURAT,Rice
+Haryana,Karnal,Rice,Leaf Folder,Moderate,2.0,0,2020,Kharif,HARYANA,KARNAL,Rice
+Haryana,Karnal,Wheat,Brown Rust,Low,1.0,0,2020,Rabi,HARYANA,KARNAL,Wheat
+Karnataka,Davangere,Maize,Fall Armyworm,Severe,4.0,1,2020,Kharif,KARNATAKA,DAVANGERE,Maize
+Karnataka,Shivamogga,Rice,Blast,Moderate,2.0,0,2020,Kharif,KARNATAKA,SHIVAMOGGA,Rice
+Madhya Pradesh,Indore,Soybean,Semilooper,High,3.0,1,2020,Kharif,MADHYA PRADESH,INDORE,Soybean
+Madhya Pradesh,Ujjain,Wheat,Foliar Blight,Low,1.0,0,2020,Rabi,MADHYA PRADESH,UJJAIN,Wheat
+Maharashtra,Ahmednagar,Soybean,Girdle Beetle,Moderate,2.0,0,2020,Kharif,MAHARASHTRA,AHMEDNAGAR,Soybean
+Maharashtra,Nagpur,Cotton,Whitefly,High,3.0,1,2020,Kharif,MAHARASHTRA,NAGPUR,Cotton
+Maharashtra,Nashik,Onion,Thrips,High,3.0,1,2020,Whole year,MAHARASHTRA,NASHIK,Onion
+Maharashtra,Nashik,Wheat,Rust,Low,1.0,0,2020,Rabi,MAHARASHTRA,NASHIK,Wheat
+Punjab,Ludhiana,Rice,Stem Borer,High,3.0,1,2020,Kharif,PUNJAB,LUDHIANA,Rice
+Punjab,Ludhiana,Wheat,Yellow Rust,Moderate,2.0,0,2020,Rabi,PUNJAB,LUDHIANA,Wheat
+Punjab,Patiala,Wheat,Aphids,Low,1.0,0,2020,Rabi,PUNJAB,PATIALA,Wheat
+Rajasthan,Jaipur,Mustard,Mustard Aphid,High,3.0,1,2020,Rabi,RAJASTHAN,JAIPUR,Mustard
+Rajasthan,Kota,Soybean,Stem Fly,Moderate,2.0,0,2020,Kharif,RAJASTHAN,KOTA,Soybean
+Tamil Nadu,Thanjavur,Rice,Bacterial Leaf Blight,Moderate,2.0,0,2020,Kharif,TAMIL NADU,THANJAVUR,Rice
+Uttar Pradesh,Meerut,Wheat,Powdery Mildew,Low,1.0,0,2020,Rabi,UTTAR PRADESH,MEERUT,Wheat
+Uttar Pradesh,Varanasi,Wheat,Termites,Low,1.0,0,2020,Rabi,UTTAR PRADESH,VARANASI,Wheat
+West Bengal,Burdwan,Rice,Sheath Blight,High,3.0,1,2020,Kharif,WEST BENGAL,BURDWAN,Rice
