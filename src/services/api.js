@@ -93,7 +93,8 @@ export const request = async (endpoint, options = {}) => {
     headers['Content-Type'] = 'application/json';
   }
 
-  const defaultTimeout = ['POST', 'PUT', 'DELETE', 'PATCH'].includes(method) ? 15000 : 8000;
+  // Allow generous timeout for free tier spin-up/cold starts (Render/cloud free tiers wake up in ~30-45s)
+  const defaultTimeout = ['POST', 'PUT', 'DELETE', 'PATCH'].includes(method) ? 60000 : 45000;
   const timeoutMs = options.timeout || defaultTimeout;
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);

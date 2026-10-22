@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -53,9 +54,13 @@ async def add_process_time_header(request: Request, call_next):
     return response
 
 # Ensure uploads directory exists and mount static serving for image previews
-uploads_path = Path(settings.UPLOAD_DIR)
-uploads_path.mkdir(parents=True, exist_ok=True)
-app.mount("/uploads", StaticFiles(directory=settings.UPLOAD_DIR), name="uploads")
+try:
+    upload_target = "/tmp/uploads" if os.environ.get("VERCEL") else settings.UPLOAD_DIR
+    uploads_path = Path(upload_target)
+    uploads_path.mkdir(parents=True, exist_ok=True)
+    app.mount("/uploads", StaticFiles(directory=upload_target), name="uploads")
+except Exception:
+    pass
 
 
 @app.get(
@@ -64,6 +69,8 @@ app.mount("/uploads", StaticFiles(directory=settings.UPLOAD_DIR), name="uploads"
     description="Returns API service identity and operational health status.",
     tags=["General"],
 )
+@app.get("/api", tags=["General"])
+@app.get("/api/", tags=["General"])
 async def root():
     return {
         "message": "Welcome to AgriRisk API",
@@ -75,9 +82,12 @@ async def root():
 @app.on_event("startup")
 async def startup_warmup():
     """
-    Asynchronously pre-warm core services in threadpool to guarantee instant (< 2ms) responses
-    on initial frontend page load.
+    Asynchronously pre-warm core services in threadpool.
+    Bypassed on Vercel to guarantee sub-second cold starts.
     """
+    if os.environ.get("VERCEL"):
+        return
+
     import asyncio
     from app.services.region_service import region_service
     from app.services.insights_service import insights_service
