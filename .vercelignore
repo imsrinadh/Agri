@@ -1,0 +1,8 @@
+backend/venv/
+backend/app/ml/disease/models/*.pth
+backend/tests/
+backend/.pytest_cache/
+.git/
+.vscode/
+node_modules/
+dist/
